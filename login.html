@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon_io/android-chrome-512x512.png" type="image/x-icon">
+    <style>
+        form > fieldset > a {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form > fieldset > div > a {
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: #3B68B7;
+        }
+    </style>
     <title>Login</title>
 </head>
 <body>
@@ -18,10 +29,10 @@
             <label for="senha">SENHA</label>
             <input type="password" name="senha" id="senha" required>
 
+            <a href="esqueci_senha.html">Esqueci minha senha</a>
             <div>
-                <input type="submit" value="LOGIN">
                 <a href="index.html">CADASTRE-SE</a>
-                <a href="esqueci_senha.html">Esqueci minha senha</a>
+                <input type="submit" value="LOGIN">
             </div>
         </fieldset>
     </form>
